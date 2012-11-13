@@ -10,3 +10,13 @@ web/bundles/*
 
 # Configuration files
 app/config/parameters.ini
+
+#IDE metadata (most common)
+/.idea
+/.nbproject
+/.metadata
+/.properties
+/local.properties
+
+#Build artifacts
+build/
