@@ -20,6 +20,14 @@
         {
             "type": "git",
             "url": "git://github.com/Verber/PHP_CodeBrowser.git"
+        },
+        {
+            "type": "git",
+            "url": "git://github.com/Verber/phpdox.git"
+        },
+        {
+            "type": "git",
+            "url": "git://github.com/Verber/TDDWorkshop.git"
         }
     ],
     "require": {
@@ -46,7 +54,9 @@
         "phpmd/phpmd": "1.4.0",
         "phploc/phploc": "1.7.4",
         "sebastianbergmann/cpd": "dev-master",
-        "elger/PHP_CodeBrowser": "dev-master"
+        "elger/PHP_CodeBrowser": "dev-master",
+        "theseer/phpdox": "dev-master",
+        "verber/TDDWorkshop": "dev-master"
     },
 
     "scripts": {
