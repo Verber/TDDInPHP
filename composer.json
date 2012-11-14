@@ -7,18 +7,6 @@
     "repositories": [
         {
             "type": "git",
-            "url": "git://github.com/hartym/php-cpd.git"
-        },
-        {
-            "type": "git",
-            "url": "git://github.com/hartym/php-finder-facade.git"
-        },
-        {
-            "type": "git",
-            "url": "git://github.com/hartym/php-timer.git"
-        },
-        {
-            "type": "git",
             "url": "git://github.com/Verber/PHP_CodeBrowser.git"
         },
         {
@@ -53,7 +41,6 @@
         "squizlabs/php_codesniffer": "dev-master",
         "phpmd/phpmd": "1.4.0",
         "phploc/phploc": "1.7.4",
-        "sebastianbergmann/cpd": "dev-master",
         "elger/PHP_CodeBrowser": "dev-master",
         "theseer/phpdox": "dev-master",
         "verber/TDDWorkshop": "dev-master"

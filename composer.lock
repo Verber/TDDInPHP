@@ -1,5 +1,5 @@
 {
-    "hash": "70c21e06a8bb54b143b043cd3a0df148",
+    "hash": "5628913fc4d92dbda3713f88f667e0c5",
     "packages": [
         {
             "name": "doctrine/common",
@@ -1064,12 +1064,12 @@
             "source": {
                 "type": "git",
                 "url": "git://github.com/symfony/symfony.git",
-                "reference": "938670d34b0e9822c5ac7c5ac7934c4d6591f7a1"
+                "reference": "2d488b79f2e46bfff057c73081a8e5c426b712a7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/symfony/symfony/archive/938670d34b0e9822c5ac7c5ac7934c4d6591f7a1.zip",
-                "reference": "938670d34b0e9822c5ac7c5ac7934c4d6591f7a1",
+                "url": "https://github.com/symfony/symfony/archive/2d488b79f2e46bfff057c73081a8e5c426b712a7.zip",
+                "reference": "2d488b79f2e46bfff057c73081a8e5c426b712a7",
                 "shasum": ""
             },
             "require": {
@@ -1118,7 +1118,7 @@
                 "propel/propel1": "dev-master",
                 "monolog/monolog": "1.*"
             },
-            "time": "1352729061",
+            "time": "1352824146",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -1204,18 +1204,18 @@
             "source": {
                 "type": "git",
                 "url": "git://github.com/fabpot/Twig.git",
-                "reference": "b16765ce8f8edd227c6c90dba489326001fd348a"
+                "reference": "f85076b091c6b6a2f9e14276a436724d23a1217e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/fabpot/Twig/archive/b16765ce8f8edd227c6c90dba489326001fd348a.zip",
-                "reference": "b16765ce8f8edd227c6c90dba489326001fd348a",
+                "url": "https://github.com/fabpot/Twig/archive/f85076b091c6b6a2f9e14276a436724d23a1217e.zip",
+                "reference": "f85076b091c6b6a2f9e14276a436724d23a1217e",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.2.4"
             },
-            "time": "1352654530",
+            "time": "1352875253",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -1963,28 +1963,23 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/squizlabs/PHP_CodeSniffer",
-                "reference": "f42b192e74434035f19a746f823d373663d37c33"
+                "reference": "517713f199084627f2443ac5d9230e10ff398bc2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/squizlabs/PHP_CodeSniffer/archive/f42b192e74434035f19a746f823d373663d37c33.zip",
-                "reference": "f42b192e74434035f19a746f823d373663d37c33",
+                "url": "https://github.com/squizlabs/PHP_CodeSniffer/archive/517713f199084627f2443ac5d9230e10ff398bc2.zip",
+                "reference": "517713f199084627f2443ac5d9230e10ff398bc2",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.1.2"
             },
-            "time": "1352760516",
+            "time": "1352869813",
             "bin": [
                 "scripts/phpcs"
             ],
             "type": "library",
             "installation-source": "source",
-            "autoload": {
-                "files": [
-                    "CodeSniffer.php"
-                ]
-            },
             "license": [
                 "BSD-3-Clause"
             ],
@@ -2000,6 +1995,58 @@
                 "standards",
                 "phpcs"
             ]
+        },
+        {
+            "name": "theseer/phpdox",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git://github.com/Verber/phpdox.git",
+                "reference": "2c06ca47e1c082862540f371f996161cc0f4f387"
+            },
+            "require": {
+                "php": ">=5.3.2",
+                "ext-dom": "*",
+                "ext-xsl": "*",
+                "ext-iconv": "*"
+            },
+            "time": "1352804037",
+            "bin": [
+                "phpdox.php",
+                "phpdox.bat",
+                "phpdox"
+            ],
+            "type": "library",
+            "installation-source": "source",
+            "authors": [
+                {
+                    "name": "Arne Blankerts",
+                    "email": "arne@blankerts.de"
+                }
+            ],
+            "description": "Documentation generator for PHP Code using standard technology"
+        },
+        {
+            "name": "verber/TDDWorkshop",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git://github.com/Verber/TDDWorkshop.git",
+                "reference": "54ea975185ca902f3389fb08410b7239e0dc9384"
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "time": "1352816095",
+            "type": "library",
+            "installation-source": "source",
+            "authors": [
+                {
+                    "name": "Ivan Mosiev",
+                    "email": "i.k.mosev@gmail.com"
+                }
+            ],
+            "description": "Materials for TDD Workshop"
         },
         {
             "name": "zetacomponents/base",
@@ -2138,6 +2185,8 @@
     "stability-flags": {
         "squizlabs/php_codesniffer": 20,
         "sebastianbergmann/cpd": 20,
-        "elger/php_codebrowser": 20
+        "elger/php_codebrowser": 20,
+        "theseer/phpdox": 20,
+        "verber/tddworkshop": 20
     }
 }
