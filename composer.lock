@@ -1,5 +1,5 @@
 {
-    "hash": "5628913fc4d92dbda3713f88f667e0c5",
+    "hash": "764367291822abff22855584b463a48e",
     "packages": [
         {
             "name": "doctrine/common",
@@ -1250,33 +1250,6 @@
     ],
     "packages-dev": [
         {
-            "name": "elger/PHP_CodeBrowser",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git://github.com/Verber/PHP_CodeBrowser.git",
-                "reference": "bd55135cb06197c9459bd2c667d4f8a77d1b1e89"
-            },
-            "require": {
-                "php": ">=5.2"
-            },
-            "time": "1352800916",
-            "bin": [
-                "bin/phpcb.php",
-                "bin/phpcb.bat",
-                "bin/phpcb"
-            ],
-            "type": "library",
-            "installation-source": "source",
-            "authors": [
-                {
-                    "name": "Elger Thiele",
-                    "email": "elger.thiele@mayflower.de"
-                }
-            ],
-            "description": "A Code browser for PHP files"
-        },
-        {
             "name": "pdepend/pdepend",
             "version": "dev-master",
             "source": {
@@ -1883,81 +1856,6 @@
             ]
         },
         {
-            "name": "sebastianbergmann/cpd",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git://github.com/hartym/php-cpd.git",
-                "reference": "9da564f802d79820aaf24e60ddc55f078cfcf43e"
-            },
-            "require": {
-                "symfony/console": "2.1.x-dev",
-                "sebastianbergmann/finder-facade": "dev-master",
-                "sebastianbergmann/timer": "dev-master"
-            },
-            "time": "1336914529",
-            "type": "library",
-            "installation-source": "source",
-            "authors": [
-                {
-                    "name": "Sebastian Bergmann",
-                    "email": "sb@sebastian-bergmann.de"
-                }
-            ],
-            "description": "PHP Copy/Paste Detector"
-        },
-        {
-            "name": "sebastianbergmann/finder-facade",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "http://github.com/hartym/php-finder-facade.git",
-                "reference": "ac8057c5b90a28e1fd9cda32e6370338c302dfe6"
-            },
-            "require": {
-                "symfony/finder": "2.1.x-dev"
-            },
-            "time": "1336912939",
-            "type": "library",
-            "installation-source": "source",
-            "autoload": {
-                "psr-0": {
-                    "SebastianBergmann\\FinderFacade": "src"
-                }
-            },
-            "authors": [
-                {
-                    "name": "Sebastian Bergmann",
-                    "email": "sb@sebastian-bergmann.de"
-                }
-            ],
-            "description": "Sebastian Bergmann's facade to Symfony2 finder."
-        },
-        {
-            "name": "sebastianbergmann/timer",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "http://github.com/hartym/php-timer.git",
-                "reference": "113cc11dceb1c1df91250aee866b73c627dd8e1f"
-            },
-            "time": "1336914137",
-            "type": "library",
-            "installation-source": "source",
-            "autoload": {
-                "psr-0": {
-                    "SebastianBergmann\\Timer": "src"
-                }
-            },
-            "authors": [
-                {
-                    "name": "Sebastian Bergmann",
-                    "email": "sb@sebastian-bergmann.de"
-                }
-            ],
-            "description": "PHP Timer"
-        },
-        {
             "name": "squizlabs/php_codesniffer",
             "version": "dev-master",
             "source": {
@@ -1995,36 +1893,6 @@
                 "standards",
                 "phpcs"
             ]
-        },
-        {
-            "name": "theseer/phpdox",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git://github.com/Verber/phpdox.git",
-                "reference": "2c06ca47e1c082862540f371f996161cc0f4f387"
-            },
-            "require": {
-                "php": ">=5.3.2",
-                "ext-dom": "*",
-                "ext-xsl": "*",
-                "ext-iconv": "*"
-            },
-            "time": "1352804037",
-            "bin": [
-                "phpdox.php",
-                "phpdox.bat",
-                "phpdox"
-            ],
-            "type": "library",
-            "installation-source": "source",
-            "authors": [
-                {
-                    "name": "Arne Blankerts",
-                    "email": "arne@blankerts.de"
-                }
-            ],
-            "description": "Documentation generator for PHP Code using standard technology"
         },
         {
             "name": "verber/TDDWorkshop",
@@ -2184,9 +2052,6 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "squizlabs/php_codesniffer": 20,
-        "sebastianbergmann/cpd": 20,
-        "elger/php_codebrowser": 20,
-        "theseer/phpdox": 20,
         "verber/tddworkshop": 20
     }
 }
