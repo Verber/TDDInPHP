@@ -1,5 +1,5 @@
 {
-    "hash": "c65cd2557846da3a8a7d5adc0cbc494a",
+    "hash": "7b586766e3924a768210469e99d5f40e",
     "packages": [
         {
             "name": "doctrine/common",
@@ -2161,6 +2161,7 @@
     "stability-flags": {
         "doctrine/migrations": 20,
         "doctrine/doctrine-migrations-bundle": 20,
+        "symfony/finder": 20,
         "squizlabs/php_codesniffer": 20,
         "verber/tddworkshop": 20
     }

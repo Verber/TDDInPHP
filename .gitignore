@@ -20,3 +20,5 @@ app/config/parameters.ini
 
 #Build artifacts
 build/
+!build/phpmd.xml
+!build/phpcs.xml
