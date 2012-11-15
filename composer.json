@@ -35,7 +35,10 @@
         "squizlabs/php_codesniffer": "dev-master",
         "phpmd/phpmd": "1.4.0",
         "phploc/phploc": "1.7.4",
-        "verber/TDDWorkshop": "dev-master"
+        "verber/TDDWorkshop": "dev-master",
+        "behat/behat":                  ">=2.2.2",
+        "behat/mink":                   "1.4@stable",
+        "behat/mink-selenium2-driver":  "*",
     },
 
     "scripts": {
